@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #010000;
+    color: #333;
+
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    color: #fdfdfd;
+    padding: 10px 00px;
+    text-align: center;
+    /* background-image: url(pexels-pixabay-36717.jpg); */
+    /* background-image: url(p2.jpg); */
+    /* background-image: url(red.jpg) ; */
+    background-image: url(pexels-achilles-kastanas-720457.jpg);
+    background-size: 100% 130px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-shadow: #10d8ba 5px 5px 5px;
+    text-decoration: solid;
+
+
+}
+
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid red;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 0.2em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #b53c3cea;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+section {
+    /* background-color: rgb(76, 13, 13); */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    /* height: 100%; */
+    /* width: 90%; */
+    background-image: url(pexels-pixabay-36717.jpg);
+
+
+
+
+}
+
+section:hover {
+    transform: scale(1.04);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b53c3cea;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    background-image: url(p2.jpg);
+}
