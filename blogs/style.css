@@ -1,0 +1,17 @@
+
+
+body{
+    background-color: rgb(247, 247, 235);
+    /* padding-left:100px; */
+}
+section{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+main > article > header {
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
